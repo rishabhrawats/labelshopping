@@ -33,8 +33,8 @@ export function QuickViewModal({ open, onClose, product }: QuickViewModalProps) 
           <button onClick={onClose} className="rounded-full border border-border p-2 text-maroon hover:bg-surface"><X size={16} /></button>
         </div>
         <div className="grid gap-4 md:grid-cols-[220px_1fr]">
-          <div className="relative h-64 overflow-hidden rounded-2xl">
-            <Image src={withBasePath(product.image)} alt={product.title} fill className="object-cover" />
+          <div className="relative aspect-[2/3] overflow-hidden rounded-2xl bg-[#f8f5f2]">
+            <Image src={withBasePath(product.image)} alt={product.title} fill className="object-cover object-top" />
           </div>
           <div>
             <p className="font-display text-h4 text-ink">{product.title}</p>

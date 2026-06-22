@@ -69,15 +69,15 @@ export function ProductDetailClient({ product }: ProductDetailClientProps) {
 
       <div className="mt-4 grid gap-8 md:grid-cols-2">
         <div className="space-y-4">
-          <div className="relative h-[560px] overflow-hidden rounded-2xl bg-white shadow-card">
-            <Image src={activeImage} alt={product.title} fill onError={() => setActiveImage(withBasePath(fallbackSareeImage))} className="object-cover" sizes="50vw" priority />
+          <div className="relative aspect-[2/3] max-h-[760px] overflow-hidden rounded-2xl bg-[#f8f5f2] shadow-card">
+            <Image src={activeImage} alt={product.title} fill onError={() => setActiveImage(withBasePath(fallbackSareeImage))} className="object-cover object-top" sizes="50vw" priority />
           </div>
           <div className="grid grid-cols-4 gap-3">
             {product.images.map((img) => {
               const normalizedImg = withBasePath(img || fallbackSareeImage);
               return (
                 <button key={img} onClick={() => setActiveImage(normalizedImg)} className={`relative h-24 overflow-hidden rounded-xl border ${activeImage === normalizedImg ? "border-maroon" : "border-border"}`}>
-                  <Image src={normalizedImg} alt={product.title} fill className="object-cover" sizes="20vw" />
+                  <Image src={normalizedImg} alt={product.title} fill className="object-cover object-top" sizes="20vw" />
                 </button>
               );
             })}

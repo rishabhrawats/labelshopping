@@ -4,8 +4,8 @@ type ProductLike = {
   id: string;
   title: string;
   images: string[];
-  price: number;
-  compareAtPrice?: number | null;
+  price: unknown;
+  compareAtPrice?: unknown;
   category: { slug: string };
   shortDescription?: string;
   badges?: string[];

@@ -35,9 +35,9 @@ export function ProductCard({ id, title, image, price, compareAtPrice, categoryS
   return (
     <>
       <motion.article whileHover={{ y: -5 }} transition={{ duration: 0.2 }} className="group overflow-hidden rounded-2xl border border-border bg-white shadow-card">
-        <div className="relative block h-80 overflow-hidden">
+        <div className="relative block aspect-[2/3] overflow-hidden bg-[#f8f5f2]">
           <Link href={`/product/${id}`}>
-            <Image src={imgSrc} alt={title} fill onError={() => setImgSrc(withBasePath(fallbackSareeImage))} className="object-cover transition duration-500 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 25vw" />
+            <Image src={imgSrc} alt={title} fill onError={() => setImgSrc(withBasePath(fallbackSareeImage))} className="object-cover object-top transition duration-500 group-hover:scale-[1.025]" sizes="(max-width: 768px) 100vw, 25vw" />
           </Link>
           <div className="absolute left-3 top-3 flex gap-2">
             {discount > 0 ? <Badge>{discount}% OFF</Badge> : null}

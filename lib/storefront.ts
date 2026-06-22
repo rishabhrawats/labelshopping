@@ -71,6 +71,17 @@ const getProductsByCategoryCached = unstable_cache(
   { revalidate: 120 }
 );
 
+const getAllProductsCached = unstable_cache(
+  async (limit: number) =>
+    prisma.product.findMany({
+      orderBy: { sku: "asc" },
+      take: limit,
+      include: { category: true }
+    }),
+  ["storefront:all-products"],
+  { revalidate: 120 }
+);
+
 export async function getCategories() {
   return getCategoriesCached();
 }
@@ -93,4 +104,8 @@ export async function getProductById(id: string) {
 
 export async function getProductsByCategory(slug: string, limit = 8) {
   return getProductsByCategoryCached(slug, limit);
+}
+
+export async function getAllProducts(limit = 24) {
+  return getAllProductsCached(limit);
 }
