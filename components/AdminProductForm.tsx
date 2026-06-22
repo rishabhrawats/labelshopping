@@ -46,6 +46,10 @@ export function AdminProductForm({ categories, product }: AdminProductFormProps)
 
   return (
     <form action={upsertProduct} className="grid gap-3 rounded-2xl border border-[#eadfcc] bg-white p-5 shadow-card md:grid-cols-2">
+      <div className="md:col-span-2">
+        <h2 className="font-display text-2xl text-maroon">{product ? `Edit ${product.title}` : "Add New Product"}</h2>
+        <p className="mt-1 text-xs text-muted">Fields marked by the browser as required must be completed before saving.</p>
+      </div>
       <input type="hidden" name="id" value={product?.id || ""} />
       <input name="title" required defaultValue={product?.title || ""} placeholder="Title" className="rounded-xl border p-3 text-sm" />
       <input name="slug" required defaultValue={product?.slug || ""} placeholder="Slug" className="rounded-xl border p-3 text-sm" />

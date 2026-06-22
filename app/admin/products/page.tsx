@@ -11,11 +11,17 @@ export default async function AdminProductsPage({ searchParams }: { searchParams
 
   return (
     <div className="space-y-6">
-      <h1 className="font-display text-4xl text-maroon">Manage Products</h1>
+      <div>
+        <h1 className="font-display text-4xl text-maroon">Manage Products</h1>
+        <p className="mt-2 text-sm text-muted">Add new products, upload multiple images, or edit the existing demo catalog.</p>
+      </div>
 
       <AdminProductForm categories={categories} product={editProduct ?? undefined} />
 
       <div className="overflow-x-auto rounded-2xl border border-[#eadfcc] bg-white shadow-card">
+        <div className="border-b border-border p-4">
+          <h2 className="font-display text-2xl text-maroon">Product List ({products.length})</h2>
+        </div>
         <table className="w-full min-w-[760px] text-left text-sm">
           <thead className="bg-cream">
             <tr>

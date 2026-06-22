@@ -348,6 +348,7 @@ export async function upsertProduct(formData: FormData) {
 
   revalidatePath("/admin/products");
   revalidatePath("/");
+  revalidatePath("/collection/all");
 }
 
 export async function deleteProduct(id: string) {
@@ -356,6 +357,8 @@ export async function deleteProduct(id: string) {
 
   await prisma.product.delete({ where: { id } });
   revalidatePath("/admin/products");
+  revalidatePath("/");
+  revalidatePath("/collection/all");
 }
 
 export async function updateOrderStatus(orderId: string, status: "PENDING" | "CONFIRMED" | "PAID" | "PROCESSING" | "SHIPPED" | "DELIVERED" | "CANCELLED" | "PAYMENT_FAILED") {
