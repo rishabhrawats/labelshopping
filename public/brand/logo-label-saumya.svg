@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-label="Label Saumya">
+  <defs>
+    <linearGradient id="goldFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E4CF96"/>
+      <stop offset="40%" stop-color="#CFB06B"/>
+      <stop offset="70%" stop-color="#B68F53"/>
+      <stop offset="100%" stop-color="#E8D39D"/>
+    </linearGradient>
+    <linearGradient id="goldStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9F7743"/>
+      <stop offset="100%" stop-color="#C49B5C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="360" rx="24" fill="#CFB2AD"/>
+
+  <text x="450" y="140" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="122" letter-spacing="2" fill="url(#goldFill)" stroke="url(#goldStroke)" stroke-width="1.5">
+    LABEL
+  </text>
+  <text x="450" y="280" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="150" letter-spacing="2" fill="url(#goldFill)" stroke="url(#goldStroke)" stroke-width="1.5">
+    SAUMYAA
+  </text>
+</svg>

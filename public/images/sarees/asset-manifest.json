@@ -1,0 +1,104 @@
+{
+  "project": "Label Saumya Demo Imagery",
+  "updatedAt": "2026-03-26",
+  "sourceType": "AI-generated branded placeholder",
+  "generatorScript": "scripts/generate-demo-saree-images.ts",
+  "notes": "Premium category-aware saree visuals generated as reusable demo-safe assets. No third-party copyrighted marketplace images used.",
+  "assets": [
+    {
+      "categorySlug": "new-arrivals",
+      "files": ["/images/sarees/new-arrivals-1.svg", "/images/sarees/new-arrivals-2.svg", "/images/sarees/new-arrivals-3.svg"],
+      "prompt": "Premium editorial saree photo style, fresh launch palette, elegant drape, luxury Indian ethnic ecommerce mood."
+    },
+    {
+      "categorySlug": "bestsellers",
+      "files": ["/images/sarees/bestsellers-1.svg", "/images/sarees/bestsellers-2.svg", "/images/sarees/bestsellers-3.svg"],
+      "prompt": "Most-loved saree look, rich maroon tones, premium studio fashion framing, polished drape."
+    },
+    {
+      "categorySlug": "kanjivaram-sarees",
+      "files": ["/images/sarees/kanjivaram-sarees-1.svg", "/images/sarees/kanjivaram-sarees-2.svg", "/images/sarees/kanjivaram-sarees-3.svg"],
+      "prompt": "Kanjivaram silk saree visual language, gold zari influence, bridal-festive opulence."
+    },
+    {
+      "categorySlug": "banarasi-sarees",
+      "files": ["/images/sarees/banarasi-sarees-1.svg", "/images/sarees/banarasi-sarees-2.svg", "/images/sarees/banarasi-sarees-3.svg"],
+      "prompt": "Banarasi brocade inspired saree visual, ornate woven detailing, heritage luxury mood."
+    },
+    {
+      "categorySlug": "linen-sarees",
+      "files": ["/images/sarees/linen-sarees-1.svg", "/images/sarees/linen-sarees-2.svg", "/images/sarees/linen-sarees-3.svg"],
+      "prompt": "Minimal linen saree styling, soft neutral palette, breathable summer elegance."
+    },
+    {
+      "categorySlug": "cotton-sarees",
+      "files": ["/images/sarees/cotton-sarees-1.svg", "/images/sarees/cotton-sarees-2.svg", "/images/sarees/cotton-sarees-3.svg"],
+      "prompt": "Everyday premium cotton saree visual, simple graceful drape, practical elegance."
+    },
+    {
+      "categorySlug": "tussar-sarees",
+      "files": ["/images/sarees/tussar-sarees-1.svg", "/images/sarees/tussar-sarees-2.svg", "/images/sarees/tussar-sarees-3.svg"],
+      "prompt": "Tussar saree texture-led visual style, artisanal sheen, festive-smart aesthetic."
+    },
+    {
+      "categorySlug": "silk-sarees",
+      "files": ["/images/sarees/silk-sarees-1.svg", "/images/sarees/silk-sarees-2.svg", "/images/sarees/silk-sarees-3.svg"],
+      "prompt": "Premium silk saree editorial tone, lustrous folds, occasion-rich palette."
+    },
+    {
+      "categorySlug": "organza-sarees",
+      "files": ["/images/sarees/organza-sarees-1.svg", "/images/sarees/organza-sarees-2.svg", "/images/sarees/organza-sarees-3.svg"],
+      "prompt": "Organza saree translucence-inspired styling, pastel luxury, airy elegant fall."
+    },
+    {
+      "categorySlug": "chiffon-sarees",
+      "files": ["/images/sarees/chiffon-sarees-1.svg", "/images/sarees/chiffon-sarees-2.svg", "/images/sarees/chiffon-sarees-3.svg"],
+      "prompt": "Flowy chiffon saree mood, soft movement, feminine evening grace."
+    },
+    {
+      "categorySlug": "georgette-sarees",
+      "files": ["/images/sarees/georgette-sarees-1.svg", "/images/sarees/georgette-sarees-2.svg", "/images/sarees/georgette-sarees-3.svg"],
+      "prompt": "Georgette saree drape styling, party-ready silhouette, smooth texture direction."
+    },
+    {
+      "categorySlug": "handloom-sarees",
+      "files": ["/images/sarees/handloom-sarees-1.svg", "/images/sarees/handloom-sarees-2.svg", "/images/sarees/handloom-sarees-3.svg"],
+      "prompt": "Handloom saree craft-forward visual, earthy richness, artisan heritage cues."
+    },
+    {
+      "categorySlug": "printed-sarees",
+      "files": ["/images/sarees/printed-sarees-1.svg", "/images/sarees/printed-sarees-2.svg", "/images/sarees/printed-sarees-3.svg"],
+      "prompt": "Printed saree design language, modern motifs, stylish daytime premium look."
+    },
+    {
+      "categorySlug": "embroidered-sarees",
+      "files": ["/images/sarees/embroidered-sarees-1.svg", "/images/sarees/embroidered-sarees-2.svg", "/images/sarees/embroidered-sarees-3.svg"],
+      "prompt": "Embroidered saree visual with fine detailing cues, festive sophistication."
+    },
+    {
+      "categorySlug": "bridal-sarees",
+      "files": ["/images/sarees/bridal-sarees-1.svg", "/images/sarees/bridal-sarees-2.svg", "/images/sarees/bridal-sarees-3.svg"],
+      "prompt": "Bridal saree opulence, deep maroon and gold richness, wedding ceremony styling."
+    },
+    {
+      "categorySlug": "festive-sarees",
+      "files": ["/images/sarees/festive-sarees-1.svg", "/images/sarees/festive-sarees-2.svg", "/images/sarees/festive-sarees-3.svg"],
+      "prompt": "Festive saree showcase, celebratory textiles, elegant Indian festive mood."
+    },
+    {
+      "categorySlug": "party-wear-sarees",
+      "files": ["/images/sarees/party-wear-sarees-1.svg", "/images/sarees/party-wear-sarees-2.svg", "/images/sarees/party-wear-sarees-3.svg"],
+      "prompt": "Party-wear saree styling, evening glam, premium modern drape direction."
+    },
+    {
+      "categorySlug": "daily-wear-sarees",
+      "files": ["/images/sarees/daily-wear-sarees-1.svg", "/images/sarees/daily-wear-sarees-2.svg", "/images/sarees/daily-wear-sarees-3.svg"],
+      "prompt": "Daily wear saree visual, understated refinement, repeat-wear comfort luxury."
+    },
+    {
+      "categorySlug": "global",
+      "files": ["/images/sarees/hero-saree.svg", "/images/sarees/fallback-saree.svg"],
+      "prompt": "Brand-level premium saree hero and fallback imagery for consistent ecommerce presentation."
+    }
+  ]
+}
