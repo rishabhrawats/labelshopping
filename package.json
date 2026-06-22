@@ -12,6 +12,7 @@
     "schema:sync": "tsx scripts/sync-supabase-schema.ts",
     "images:generate": "tsx scripts/generate-demo-saree-images.ts",
     "images:apply-products": "tsx scripts/apply-product-images.ts",
+    "demo:prepare-client": "tsx scripts/prepare-client-demo.ts",
     "prisma:seed": "tsx prisma/seed.ts",
     "seed": "npm run prisma:seed",
     "db:up": "docker compose up -d",
